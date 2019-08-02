@@ -1,0 +1,77 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="cont">
+  <button (click)='target_data()' class="add_obj" type="button">Добавить объект</button>
+
+  <button (click)='get_data(id)' class="but_add_obj" type="button">Отправить запрос</button>
+</div>
+
+<table id="newText">
+  <tr>
+    <th id="obj_th1">Объект</th>
+    <th id="obj_th2">Широта</th>
+    <th id="obj_th3">Долгота</th>
+    <th id="obj_th3">Примечание</th>
+  </tr>
+  <tr>
+    <td id='td_cl' (click)='path_value(0)'>{{trrr[0][0]}}</td>
+    <td>{{trrr[0][1]}}</td>
+    <td>{{trrr[0][2]}}</td>
+    <td>{{trrr[0][3]}}</td>
+  </tr>
+  <tr>
+    <td id='td_cl' (click)='path_value(1)'>{{trrr[1][0]}}</td>
+    <td>{{this.trrr[1][1]}}</td>
+    <td>{{this.trrr[1][2]}}</td>
+    <td>{{this.trrr[1][3]}}</td>
+  </tr>
+  <tr>
+    <td id='td_cl' (click)='path_value(2)'>{{trrr[2][0]}}</td>
+    <td>{{trrr[2][1]}}</td>
+    <td>{{trrr[2][2]}}</td>
+    <td>{{trrr[2][3]}}</td>
+  </tr>
+  <tr>
+    <td id='td_cl' (click)='path_value(3)'>{{trrr[3][0]}}</td>
+    <td>{{trrr[3][1]}}</td>
+    <td>{{trrr[3][2]}}</td>
+    <td>{{trrr[3][3]}}</td>
+  </tr>
+  <tr>
+    <td id='td_cl' (click)='path_value(4)'>{{trrr[4][0]}}</td>
+    <td>{{trrr[4][1]}}</td>
+    <td>{{trrr[4][2]}}</td>
+    <td>{{trrr[4][3]}}</td>
+  </tr>
+  <tr>
+    <td id='td_cl' (click)='path_value(5)'>{{value_tab[5]}}</td>
+    <td>{{trrr[5][1]}}</td>
+    <td>{{trrr[5][2]}}</td>
+    <td>{{trrr[5][3]}}</td>
+  </tr>
+  <tr>
+    <td id='td_cl' (click)='path_value(6)'>{{value_tab[6]}}</td>
+    <td>{{trrr[6][1]}}</td>
+    <td>{{trrr[6][2]}}</td>
+    <td>{{trrr[6][3]}}</td>
+  </tr>
+  <tr>
+    <td id='td_cl' (click)='path_value(7)'>{{value_tab[7]}}</td>
+    <td>{{trrr[7][1]}}</td>
+    <td>{{trrr[7][2]}}</td>
+    <td>{{trrr[7][3]}}</td>
+  </tr>
+  <tr>
+    <td id='td_cl' (click)='path_value(8)'>{{value_tab[8]}}</td>
+    <td>{{trrr[8][1]}}</td>
+    <td>{{trrr[8][2]}}</td>
+    <td>{{trrr[8][3]}}</td>
+  </tr>
+  <tr>
+    <td id='td_cl' (click)='path_value(9)'>{{value_tab[9]}}</td>
+    <td>{{trrr[9][1]}}</td>
+    <td>{{trrr[9][2]}}</td>
+    <td>{{trrr[9][3]}}</td>
+  </tr>
+</table>
+
+<button (click)='del_data(id)' id="oldText" class="del_obj" type="button">Удалить выбранный объект</button>

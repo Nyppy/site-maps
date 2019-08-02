@@ -1,0 +1,90 @@
+table {
+  border: 1px solid grey;
+  font-size: 16px;
+  width: 450px;
+  border-collapse: collapse;
+}
+th {
+  border: 1px solid grey;
+}
+td {
+  border: 1px solid grey;
+  padding: 10px 10px 10px 10px;
+}
+#obj_th1 {
+  width: 30px;
+}
+#obj_th2 {
+  width: 20px;
+}
+#obj_th3 {
+  width: 20px;
+}
+#obj_th4 {
+  width: 40px;
+
+}
+.add_obj {
+  float: left;
+  margin-right: 200px;
+  margin-bottom: 10px;
+}
+.cont {
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+.del_obj {
+  margin-top: 10px;
+}
+#teee {
+  margin-top: 30px;
+}
+#td_cl:hover {
+  background-color: #E8E7E6;
+}
+#td_cl {
+    cursor: pointer;
+}
+button {
+  cursor: pointer;
+}
+.but_add_obj {
+
+}
+
+.wrapper1 {
+  float: left;
+  margin-left: 20px;
+}
+.wrapper2 {
+  float: right;
+  margin-top: 60px;
+}
+.wp1 {
+  float: left;
+}
+.wp2 {
+  margin-top: 60px;
+  margin-right: 20px;
+  width: 250px;
+  height: 350px;
+  border: 1px solid #000;
+  float: right;
+}
+.wrapper2 button {
+  margin-left: 20px;
+}
+#map {
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+#kont_1 {
+  text-align: center;
+}
+hr {
+  color: #000;
+}
+#pr_inf {
+  margin-left: 5px;
+  margin-right: 5px;
+}
